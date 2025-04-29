@@ -1,15 +1,15 @@
 {
-    "name": "Aboveall",
+    "name": "DECK-BOT",
     "description": "Simple WhatsApp Bot",
-    "logo": "https://telegra.ph/file/b065f0f673cae5452c358.jpg",
-    "keywords": ["JUPITERBOLD05", "ABOVEALL", "Aboveall"],
+    "logo": "https://i.imgur.com/wxtMtq7.jpeg",
+    "keywords": ["DECK-TV", "DECK-TV", "DECK-TV"],
     "success_url": "/",
     "stack": "container",
   
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Aboveall",
+        "value": "DECK-BOT",
         "required": true
       },
   
@@ -20,7 +20,7 @@
       },
       "USER_IMAGES": {
         "description": "Menu Images",
-        "value": "https://telegra.ph/file/b065f0f673cae5452c358.jpg",
+        "value": "https://i.imgur.com/wxtMtq7.jpeg",
         "required": false
       },
   

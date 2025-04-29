@@ -1,13 +1,13 @@
 {
-   "name": "Aboveall",
+   "name": "DECK-BOT",
    "version": "2.5.0",
-   "description": "Multi device whatsapp bot by JUPITERBOLD05.",
+   "description": "Multi device whatsapp bot by DECK-TV.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name Aboveall || node .",
-      "asta": "pm2 start . --deep-monitoring --attach --name Aboveall || node .",
-      "start": "pm2 start . --attach --name Aboveall",
+      "run": "pm2 start . --deep-monitoring --attach --name DECK-BOT || node .",
+      "asta": "pm2 start . --deep-monitoring --attach --name DECK-BOT || node .",
+      "start": "pm2 start . --attach --name DECK-BOT",
       "stop": "pm2 stop Aboveall",
       "heroku-postbuild": "git clone https://github.com/Jupiterbold05/Aboveall temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/Jupiterbold05/Aboveall.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",

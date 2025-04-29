@@ -14,12 +14,12 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Jupiterbold05/Aboveall";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vas9N7MBA1f0yw8dZ515";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vas9N7MBA1f0yw8dZ515";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://imgur.com/U1oSe2y";
-global.devs = "2348084644182";
-global.sudo = process.env.SUDO || "2349071978357";
-global.owner = process.env.OWNER_NUMBER || "2348084644182";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaxFLDa6BIEpc7zmN03S";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaxFLDa6BIEpc7zmN03S";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://qu.ax/NcoSf.jpg";
+global.devs = "2349077983243";
+global.sudo = process.env.SUDO || "2349077983243";
+global.owner = process.env.OWNER_NUMBER || "2349077983243";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://imgur.com/U1oSe2y";
+global.userImages = process.env.USER_IMAGES || "https://qu.ax/NcoSf.jpg";
 global.waPresence = process.env.WAPRESENCE || "unavailable";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "?",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍™",
-  author: process.env.PACK_AUTHER || "ąҍօѵҽ ąӀӀ ☠️👑🌍",
-  packname: process.env.PACK_NAME || "ąҍօѵҽ ąӀӀ ☠️👑🌍",
-  botname: process.env.BOT_NAME || "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍",
-  ownername: process.env.OWNER_NAME || "Jᴜᴘɪᴛᴇʀʙᴏʟᴅ99 ☠️👑🌍",
+  caption: process.env.CAPTION || "DECK-BOT🌚✅",
+  author: process.env.PACK_AUTHER || "DECK-BOT🌚✅",
+  packname: process.env.PACK_NAME || "DECK-BOT🌚✅",
+  botname: process.env.BOT_NAME || "DECK-BOT🌚✅",
+  ownername: process.env.OWNER_NAME || "DECK-TV✅🌚",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
